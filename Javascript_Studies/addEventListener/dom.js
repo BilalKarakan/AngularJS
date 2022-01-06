@@ -5,7 +5,7 @@ function changeColor() {
 }
 //-----------------------------------------------------------------------------
 
-var myName2 = document.getElementsById("p1").addEventListener("mouseover", changeValue)
+var myName2 = document.getElementsById("p1").addEventListener("mouseover", changeValue);
 
 function changeValue() {
     var changeName = document.getElementsByName("customerName");
