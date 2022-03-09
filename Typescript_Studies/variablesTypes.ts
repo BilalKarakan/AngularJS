@@ -21,3 +21,24 @@ let list1:[number,string] = [2,"Ankara",]
 
 enum Renk {Red=1, Yellow, Blue}
 let renk:Renk = Renk.Red
+
+let value : any = "Ankara"
+value = 2.6
+value = {}
+
+let value2 : void = undefined
+
+function sayHi ():void{
+    console.log("Hello There!")
+    //return 4
+}
+
+// Undefined - Null
+
+let age : number  // It is undefined
+age = 10  // It is not undefined anymore
+
+class Customer{
+    // Referansı oluşturulmayan(newlenmeyen) obje nulldır.
+}
+
