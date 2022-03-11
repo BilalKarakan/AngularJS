@@ -31,3 +31,22 @@ function addition5(x:number, y?:number):number{
 
 console.log(addition5(3))
 console.log(addition5(3,5))
+
+function invite(firstGuest:string, ...others:string[]):string{
+    return firstGuest + " " + others.join(" ");
+}
+
+console.log(invite("Bilal", "Elif", "Ahmet", "Mehmet"))
+
+function invite2(...others:string[]):string{     // İlk değeri vermek zorunda değiliz.
+    return others.join(" ");
+}
+
+console.log(invite2("Bilal", "Elif", "Ahmet", "Mehmet"))
+
+function invite3(...others:string[]):string{     // İlk değeri vermek zorunda değiliz.
+    return others.join(" ");
+}
+
+console.log(invite3())
+
